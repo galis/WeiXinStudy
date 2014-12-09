@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+
+    <com.galis.weixinstudy.UIViewPager
+        android:id="@+id/home_view_page"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+    <com.galis.weixinstudy.UITabBottom
+        android:id="@+id/home_tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</LinearLayout>
